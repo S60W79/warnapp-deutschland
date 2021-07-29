@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the darkeye.ursses.darkeye package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: darkeye.ursses.darkeye\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-10 21:17+0000\n"
+"PO-Revision-Date: 2021-07-11 21:01+0200\n"
+"Last-Translator: Anne017\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Components/GenerateInputForSettings.qml:60
+msgid "Number"
+msgstr "Nombre"
+
+#: ../qml/Components/GenerateInputForSettings.qml:82
+msgid "String"
+msgstr "Chaîne"
+
+#: ../qml/Components/GenerateInputForSettings.qml:103
+msgid "Boolen"
+msgstr "Booléen"
+
+#: ../qml/Components/GenerateInputForSettings.qml:125
+msgid "Select Value"
+msgstr "Sélectionnez une valeur"
+
+#: ../qml/Components/UI/SharePage.qml:10
+msgid "Select App to share with"
+msgstr "Sélectionnez une application avec laquelle partager"
+
+#: ../qml/Main.qml:99
+msgid "Rsses"
+msgstr "Flux RSS"
+
+#: ../qml/Main.qml:103 ../qml/Pages/Information.qml:51
+#: darkeye.ursses.desktop.in.h:1
+msgid "uRsses"
+msgstr "uRsses"
+
+#: ../qml/Main.qml:115 ../qml/Pages/AddRssPage.qml:45
+#: ../qml/Pages/ManageFeedsPage.qml:20
+msgid "Add Feed"
+msgstr "Ajouter un flux"
+
+#: ../qml/Main.qml:122 ../qml/Pages/SettingsPage.qml:14
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../qml/Main.qml:130
+msgid "Ascending"
+msgstr "Croissant"
+
+#: ../qml/Main.qml:130
+msgid "Descending"
+msgstr "Décroissant"
+
+#: ../qml/Main.qml:130
+msgid "Toggle Sort (%1) "
+msgstr "Modifier le tri (%1) "
+
+#: ../qml/Main.qml:196 ../qml/Main.qml:228
+msgid "Added Feed : %1"
+msgstr "Flux ajouté : %1"
+
+#: ../qml/Pages/AddRssPage.qml:16
+msgid "Add new Feed"
+msgstr "Ajouter un nouveau flux"
+
+#: ../qml/Pages/AddRssPage.qml:34
+msgid "Enter URL or a domain to search feeds for"
+msgstr ""
+"Saisissez un lien ou un domaine pour lequel vous souhaitez rechercher des "
+"flux"
+
+#: ../qml/Pages/AddRssPage.qml:45
+msgid "Search"
+msgstr "Chercher"
+
+#: ../qml/Pages/EnteryViewPage.qml:28
+msgid "Next story"
+msgstr "Article suivant"
+
+#: ../qml/Pages/EnteryViewPage.qml:37
+msgid "Previous story"
+msgstr "Article précédent"
+
+#: ../qml/Pages/EnteryViewPage.qml:47
+msgid "Open in browser"
+msgstr "Ouvrir dans le navigateur"
+
+#: ../qml/Pages/EnteryViewPage.qml:54
+msgid "Show Content"
+msgstr "Afficher le contenu"
+
+#: ../qml/Pages/EnteryViewPage.qml:54
+msgid "Show Web"
+msgstr "Afficher le Web"
+
+#: ../qml/Pages/EnteryViewPage.qml:66
+msgid "Save/Bookmark"
+msgstr "Enregistrer/Favori"
+
+#: ../qml/Pages/EnteryViewPage.qml:74 ../qml/Pages/ManageBookmarksPage.qml:70
+msgid "Share"
+msgstr "Partager"
+
+#: ../qml/Pages/EnteryViewPage.qml:185
+msgid "Web Config"
+msgstr "Configuration Web"
+
+#: ../qml/Pages/EnteryViewPage.qml:201
+msgid "Zoom"
+msgstr "Zoom"
+
+#: ../qml/Pages/Information.qml:9
+msgid "App Information"
+msgstr "Informations sur l'application"
+
+#: ../qml/Pages/Information.qml:17
+msgid "Get the source"
+msgstr "Consulter le code source"
+
+#: ../qml/Pages/Information.qml:18
+msgid "Report issues"
+msgstr "Signaler un problème"
+
+#: ../qml/Pages/Information.qml:19
+msgid "Contributors"
+msgstr "Contributeurs/trices"
+
+#: ../qml/Pages/Information.qml:21
+msgid "Domain Feed search provided by 'Feedsearch' "
+msgstr "Recherche de flux dans le domaine fournie par Feedsearch "
+
+#: ../qml/Pages/Information.qml:22
+msgid "Donate"
+msgstr "Faire un don"
+
+#: ../qml/Pages/Information.qml:57
+msgid "Version %1"
+msgstr "Version %1"
+
+#: ../qml/Pages/MainFeedPage.qml:157
+msgid "Loading feeds...."
+msgstr "Chargement des flux..."
+
+#: ../qml/Pages/MainFeedPage.qml:158
+msgid ""
+"No Feeds yet... You can add feeds by clicking on the '+' sign in the top "
+"right."
+msgstr ""
+"Pas encore de flux... Vous pouvez ajouter des flux en cliquant sur l'icône « "
+"+ » dans le coin supérieur droit."
+
+#: ../qml/Pages/MainFeedPage.qml:252 ../qml/Pages/ManageBookmarksPage.qml:18
+msgid "Bookmarks"
+msgstr "Favoris"
+
+#: ../qml/Pages/ManageAccountsPage.qml:18
+msgid "Nextcloud Accounts"
+msgstr "Comptes Nextcloud"
+
+#: ../qml/Pages/ManageAccountsPage.qml:23
+msgid "Add a new account"
+msgstr "Ajouter un nouveau compte"
+
+#: ../qml/Pages/ManageAccountsPage.qml:29
+msgid "Synchronize Now"
+msgstr "Synchroniser maintenant"
+
+#: ../qml/Pages/ManageAccountsPage.qml:34
+msgid "Synchronization started"
+msgstr "Synchronisation lancée"
+
+#: ../qml/Pages/ManageAccountsPage.qml:38
+msgid "Upload local changes to NextCloud"
+msgstr "Télécharger les modifications locales vers NextCloud"
+
+#: ../qml/Pages/ManageAccountsPage.qml:46
+msgid "NextCloud news feeds will be merged and updated with the local feeds."
+msgstr ""
+"Les flux d'actualités NextCloud seront fusionnés et mis à jour avec les flux "
+"locaux."
+
+#: ../qml/Pages/ManageAccountsPage.qml:47
+msgid ""
+"Local changes to the feed list will not be uploaded to NextCloud "
+"automatically."
+msgstr ""
+"Les modifications locales de la liste des flux ne seront pas téléchargées "
+"automatiquement vers NextCloud."
+
+#: ../qml/Pages/ManageAccountsPage.qml:67
+msgid "Authentication error"
+msgstr "Erreur d'authentification"
+
+#: ../qml/Pages/ManageAccountsPage.qml:76
+msgid ""
+"Authenticated. Currently feeds can only be retrived from the cloud not "
+"uploaded or updated."
+msgstr ""
+"Authentifié. Actuellement, les flux ne peuvent être récupérés qu'à partir du "
+"nuage et non téléchargés ou mis à jour."
+
+#: ../qml/Pages/ManageAccountsPage.qml:90
+msgid ""
+"No Nextcloud accounts available. Tap on the button at the top right to add "
+"an account."
+msgstr ""
+"Aucun compte Nextcloud disponible. Appuyez sur le bouton en haut à droite "
+"pour ajouter un compte."
+
+#: ../qml/Pages/ManageAccountsPage.qml:112
+msgid "Select an account to use"
+msgstr "Sélectionnez un compte à utiliser"
+
+#: ../qml/Pages/ManageBookmarksPage.qml:24
+msgid "No bookmarks yet..."
+msgstr "Pas encore de favoris..."
+
+#: ../qml/Pages/ManageBookmarksPage.qml:59 ../qml/Pages/ManageFeedsPage.qml:46
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../qml/Pages/ManageBookmarksPage.qml:78
+msgid "Open Externally"
+msgstr "Ouvrir en externe"
+
+#: ../qml/Pages/ManageFeedsPage.qml:15
+msgid "Manage Feeds"
+msgstr "Gérer les flux"
+
+#: ../qml/Pages/SettingsPage.qml:18
+msgid "Accounts"
+msgstr "Comptes"
+
+#: ../qml/Pages/SettingsPage.qml:25
+msgid "Feeds"
+msgstr "Flux"
+
+#: ../qml/Pages/SettingsPage.qml:32
+msgid "About"
+msgstr "À propos"
+
+#: ../qml/Pages/SettingsPage.qml:66
+msgid "Show content instead of linked page"
+msgstr "Afficher le contenu au lieu de la page du lien"
+
+#: ../qml/Pages/SettingsPage.qml:67
+msgid ""
+"Shoud we just show the feed entry content instead of navigating to the "
+"related website"
+msgstr ""
+"Devrions-nous simplement afficher le contenu du flux au lieu de naviguer "
+"vers le site internet correspondant ?"
+
+#: ../qml/Pages/SettingsPage.qml:70
+msgid "Show section name"
+msgstr "Afficher le nom des sections"
+
+#: ../qml/Pages/SettingsPage.qml:71
+msgid "Seperates entries by Sections"
+msgstr "Séparer les entrées par sections"
+
+#: ../qml/Pages/SettingsPage.qml:74
+msgid "Item to load per feed"
+msgstr "Éléments à charger par flux"
+
+#: ../qml/Pages/SettingsPage.qml:75
+msgid "How much enteries to load per feed source"
+msgstr "Le nombre d'entrées à charger par source de flux"
+
+#: ../qml/Pages/SettingsPage.qml:78
+msgid "Sorting field name"
+msgstr "Nom du champ de tri"
+
+#: ../qml/Pages/SettingsPage.qml:79
+msgid "What form the feed entry field will be used for sorting."
+msgstr "La méthode de tri utilisée pour les flux."
+
+#: ../qml/Pages/SettingsPage.qml:82
+msgid "Section field name"
+msgstr "Nom du champ de la section"
+
+#: ../qml/Pages/SettingsPage.qml:83
+msgid " "
+msgstr " "
+
+#: ../qml/Pages/SettingsPage.qml:86
+msgid "Web browser default zoom"
+msgstr "Zoom par défaut du navigateur internet"
+
+#: ../qml/Pages/SettingsPage.qml:87
+msgid "The zoom value to set the internal web browser to."
+msgstr "La valeur de zoom à définir pour le navigateur internet interne."
+
+#: ../qml/Pages/SettingsPage.qml:90
+msgid "Update feeds every"
+msgstr "Mettre à jour les flux toutes les"
+
+#: ../qml/Pages/SettingsPage.qml:91
+msgid "The amount of time (in minutes) to wait between automatic feeds update."
+msgstr ""
+"Le temps (en minutes) à attendre entre les mises à jour automatiques des "
+"flux."
+
+#: ../qml/Pages/SettingsPage.qml:94
+msgid "Open feeds URL Externally"
+msgstr "Ouvrir les liens des flux en externe"
+
+#: ../qml/Pages/SettingsPage.qml:95
+msgid ""
+"Open feeds URL using external browser instead of using the internal browser "
+"view."
+msgstr ""
+"Ouvrir les liens des flux en utilisant un navigateur externe plutôt que "
+"d'utiliser la vue interne du navigateur."
+
+#: ../qml/Pages/SettingsPage.qml:98
+msgid "Swipe next/Previous story"
+msgstr "Passer à l'article suivant/précédent"
+
+#: ../qml/Pages/SettingsPage.qml:99
+msgid "Move between sotries using swipe to chage to the next/previous story."
+msgstr ""
+"Naviguer entre les articles en utilisant un glissement pour passer à "
+"l'article suivant/précédent."
+
+#~ msgid "Back"
+#~ msgstr "Retour"
+
+#~ msgid ""
+#~ "Please don't use too much as the sorting algoritihm is slow right now."
+#~ msgstr ""
+#~ "N'en utilisez pas trop car l'algorithme de tri est lent pour le moment."

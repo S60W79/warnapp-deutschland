@@ -1,0 +1,16 @@
+{
+    "name": "s60w79.warnapp-deutschland",
+    "description": "UT Warnapp f\u00fcr Deutschland mit Unwetterwarnungen, Hochwassermeldungen, etc.",
+    "architecture": "all",
+    "title": "warnapp-deutschland",
+    "hooks": {
+        "s60w79.warnapp-deutschland": {
+            "apparmor": "s60w79.warnapp-deutschland.apparmor",
+            "desktop": "s60w79.warnapp-deutschland.desktop",
+            "content-hub": "content-hub.json"
+        }
+    },
+    "version": "0.0.1",
+    "maintainer": "s60w79 <ernetnakisuml@gmail.com>",
+    "framework": "ubuntu-sdk-16.04.5"
+}

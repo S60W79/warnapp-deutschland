@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the darkeye.ursses.darkeye package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: darkeye.ursses.darkeye\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-15 22:04+0000\n"
+"PO-Revision-Date: 2021-03-16 14:00+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: ../qml/Components/GenerateInputForSettings.qml:60
+msgid "Number"
+msgstr "Getal"
+
+#: ../qml/Components/GenerateInputForSettings.qml:82
+msgid "String"
+msgstr "Tekenreeks"
+
+#: ../qml/Components/GenerateInputForSettings.qml:103
+msgid "Boolen"
+msgstr "Boolean"
+
+#: ../qml/Components/GenerateInputForSettings.qml:125
+msgid "Select Value"
+msgstr "Kies een waarde"
+
+#: ../qml/Main.qml:58
+msgid "Rsses"
+msgstr "Rsses"
+
+#: ../qml/Main.qml:63 ../qml/Pages/AddRssPage.qml:44
+msgid "Add Feed"
+msgstr "Feed toevoegen"
+
+#: ../qml/Main.qml:70 ../qml/Pages/SettingsPage.qml:13
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../qml/Main.qml:77
+msgid "Toggle Sort"
+msgstr "Sorteren"
+
+#: ../qml/Pages/AddRssPage.qml:15
+msgid "Add new Feed"
+msgstr "Feed toevoegen"
+
+#: ../qml/Pages/AddRssPage.qml:33
+msgid "Enter URL or a domain to search feeds for"
+msgstr "Voer de url in of een domein dat moet worden doorzocht"
+
+#: ../qml/Pages/AddRssPage.qml:44
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../qml/Pages/EnteryViewPage.qml:21
+msgid "Open in browser"
+msgstr "Openen in webbrowser"
+
+#: ../qml/Pages/EnteryViewPage.qml:28
+msgid "Save/Bookmark"
+msgstr "Opslaan/Toev. aan bladwijzers"
+
+#: ../qml/Pages/EnteryViewPage.qml:35 ../qml/Pages/ManageBookmarksPage.qml:63
+msgid "Share"
+msgstr "Delen"
+
+#: ../qml/Pages/Information.qml:9
+msgid "App Information"
+msgstr "Appinformatie"
+
+#: ../qml/Pages/Information.qml:13 ../qml/Pages/ManageAccountsPage.qml:21
+#: ../qml/Pages/ManageFeedsPage.qml:18
+msgid "Back"
+msgstr "Terug"
+
+#: ../qml/Pages/Information.qml:26
+msgid "Get the source"
+msgstr "Broncode bekijken"
+
+#: ../qml/Pages/Information.qml:27
+msgid "Report issues"
+msgstr "Problemen melden"
+
+#: ../qml/Pages/Information.qml:28
+msgid "Contributors"
+msgstr "Bijdragers"
+
+#: ../qml/Pages/Information.qml:30
+msgid "Domain Feed search provided by 'Feedsearch' "
+msgstr "Domeindoorzoeking wordt aangeboden door 'Feedsearch' "
+
+#: ../qml/Pages/Information.qml:31
+msgid "Donate"
+msgstr "Doneren"
+
+#: ../qml/Pages/Information.qml:60 darkeye.ursses.desktop.in.h:1
+msgid "uRsses"
+msgstr "uRsses"
+
+#: ../qml/Pages/MainFeedPage.qml:110
+msgid ""
+"No Feeds yet... You can add feeds by clicking on the '+' sign in the top "
+"right."
+msgstr ""
+"Er zijn nog geen feeds. Voeg feeds toe door op de plusknop ('+') te drukken."
+
+#: ../qml/Pages/MainFeedPage.qml:169 ../qml/Pages/ManageBookmarksPage.qml:18
+msgid "Bookmarks"
+msgstr "Bladwijzers"
+
+#: ../qml/Pages/ManageAccountsPage.qml:17
+msgid "Nextcloud Accounts"
+msgstr "Nextcloud-accounts"
+
+#: ../qml/Pages/ManageAccountsPage.qml:30
+msgid "Add a new account"
+msgstr "Account toevoegen"
+
+#: ../qml/Pages/ManageAccountsPage.qml:73
+msgid ""
+"No Nextcloud accounts available. Tap on the button at the top right to add "
+"an account."
+msgstr ""
+"Geen Nextcloud-accounts beschikbaar. Druk op de knop rechtsboven knop om er "
+"één toe te voegen."
+
+#: ../qml/Pages/ManageAccountsPage.qml:95
+msgid "Select an account to use"
+msgstr "Kies het te gebruiken account"
+
+#: ../qml/Pages/ManageBookmarksPage.qml:24
+msgid "No bookmarks yet..."
+msgstr "Er zijn nog geen bladwijzers."
+
+#: ../qml/Pages/ManageBookmarksPage.qml:52 ../qml/Pages/ManageFeedsPage.qml:42
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../qml/Pages/ManageFeedsPage.qml:13
+msgid "Manage Feeds"
+msgstr "Feeds beheren"
+
+#: ../qml/Pages/SettingsPage.qml:17
+msgid "Accounts"
+msgstr "Accounts"
+
+#: ../qml/Pages/SettingsPage.qml:24
+msgid "Feeds"
+msgstr "Feeds"
+
+#: ../qml/Pages/SettingsPage.qml:31
+msgid "About"
+msgstr "Over"
+
+#: ../qml/Pages/SettingsPage.qml:65
+msgid "Show content instead of linked page"
+msgstr "Inhoud tonen in plaats van gelinkte pagina's"
+
+#: ../qml/Pages/SettingsPage.qml:66
+msgid ""
+"Shoud we just show the feed entry content instead of navigating to the "
+"related website"
+msgstr ""
+"Of de feedinhoud moet worden getoond in plaats de bijbehorende website te "
+"laden"
+
+#: ../qml/Pages/SettingsPage.qml:69
+msgid "Show section name"
+msgstr "Sectienamen tonen"
+
+#: ../qml/Pages/SettingsPage.qml:70
+msgid "Seperates entries by Sections"
+msgstr "Deel items op in secties"
+
+#: ../qml/Pages/SettingsPage.qml:73
+msgid "Item to load per feed"
+msgstr "Aantal items per feed"
+
+#: ../qml/Pages/SettingsPage.qml:74
+msgid "Please don't use too much as the sorting algoritihm is slow right now."
+msgstr "Kies geen te hoog aantal om te voorkomen dat het sorteren lang duurt."
+
+#: ../qml/Pages/SettingsPage.qml:77
+msgid "Sorting field name"
+msgstr "Naam van sorteerveld"
+
+#: ../qml/Pages/SettingsPage.qml:78
+msgid "What form the feed entry field will be used for sorting."
+msgstr "In welke vorm de feednaam moet worden gesorteert."
+
+#: ../qml/Pages/SettingsPage.qml:81
+msgid "Section field name"
+msgstr "Naam van sectieveld"
+
+#: ../qml/Pages/SettingsPage.qml:82
+msgid " "
+msgstr " "
+
+#: ../qml/Pages/SettingsPage.qml:85
+msgid "Web browser default zoom"
+msgstr "Standaard zoomniveau"
+
+#: ../qml/Pages/SettingsPage.qml:86
+msgid "The zoom value to set the internal web browser to."
+msgstr "Het zoomniveau waarop de interne webbrowser moet worden gezet."
+
+#: ../qml/Pages/SettingsPage.qml:89
+msgid "Update feeds every"
+msgstr "Feeds bijwerken, elke"
+
+#: ../qml/Pages/SettingsPage.qml:90
+msgid "The amount of time (in minutes) to wait between automatic feeds update."
+msgstr "Het aantal minuten tussen het automatisch bijwerken van feeds."

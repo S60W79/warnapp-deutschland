@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Warnapp Deutschland
+Exec=qmlscene %U qml/Main.qml
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Image=assets/splash.svg
+X-Ubuntu-Splash-Color=#4d4d4d

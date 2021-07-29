@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the s60w79.warnapp-deutschland.s60w79 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: s60w79.warnapp-deutschland.s60w79\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 19:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Components/GenerateInputForSettings.qml:60
+msgid "Number"
+msgstr ""
+
+#: ../qml/Components/GenerateInputForSettings.qml:82
+msgid "String"
+msgstr ""
+
+#: ../qml/Components/GenerateInputForSettings.qml:103
+msgid "Boolen"
+msgstr ""
+
+#: ../qml/Components/GenerateInputForSettings.qml:125
+msgid "Select Value"
+msgstr ""
+
+#: ../qml/Components/UI/SharePage.qml:10
+msgid "Select App to share with"
+msgstr ""
+
+#: ../qml/Main.qml:99 ../qml/Main.qml:103 ../qml/Pages/Information.qml:52
+#: s60w79.warnapp-deutschland.desktop.in.h:1
+msgid "Warnapp Deutschland"
+msgstr ""
+
+#: ../qml/Main.qml:115 ../qml/Pages/AddRssPage.qml:45
+#: ../qml/Pages/ManageFeedsPage.qml:20
+msgid "Gebiet hinzufügen"
+msgstr ""
+
+#: ../qml/Main.qml:122 ../qml/Pages/SettingsPage.qml:13
+msgid "Einstellungen"
+msgstr ""
+
+#: ../qml/Main.qml:130
+msgid "Ascending"
+msgstr ""
+
+#: ../qml/Main.qml:130
+msgid "Descending"
+msgstr ""
+
+#: ../qml/Main.qml:130
+msgid "Toggle Sort (%1) "
+msgstr ""
+
+#: ../qml/Main.qml:196
+msgid "Gebiet hinzugefügt: %1"
+msgstr ""
+
+#: ../qml/Main.qml:228
+msgid "Gebiet hinzu gefügt : %1"
+msgstr ""
+
+#: ../qml/Pages/AddRssPage.qml:16
+msgid "Neues Gebiet hinzufügen"
+msgstr ""
+
+#: ../qml/Pages/AddRssPage.qml:34
+msgid "Geben sie den Namen eines Landkreises ein"
+msgstr ""
+
+#: ../qml/Pages/AddRssPage.qml:45
+msgid "Suchen"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:28
+msgid "Nächste Meldung"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:37
+msgid "Vorherige Meldung"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:47
+msgid "Im Browser öffnen"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:54
+msgid "Inhalt zeigen"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:54
+msgid "Web Inhalt Zeigen"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:66
+msgid "Meldung speichern"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:74 ../qml/Pages/ManageBookmarksPage.qml:70
+msgid "Teilen"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:185
+msgid "Web Config"
+msgstr ""
+
+#: ../qml/Pages/EnteryViewPage.qml:201
+msgid "Zoom"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:9
+msgid "Informationen"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:18
+msgid "Quellcode ansehen"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:19
+msgid "Fehler melden"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:20
+msgid "Offizielle Nachrichtenquelle"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:22
+msgid "Basiert auf URsses von Darkeye"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:58
+msgid "Version %1"
+msgstr ""
+
+#: ../qml/Pages/MainFeedPage.qml:157
+msgid "Meldungen werden geladen"
+msgstr ""
+
+#: ../qml/Pages/MainFeedPage.qml:158
+msgid ""
+"Bisher sind keine Gebiete in der Benachrichtigungsliste. Tippen sie auf '+' "
+"um ein Landkreis oder eine Kreisfreie Stadt hinzu zu fügen."
+msgstr ""
+
+#: ../qml/Pages/MainFeedPage.qml:252 ../qml/Pages/ManageBookmarksPage.qml:18
+msgid "Gespeicherte Meldungen"
+msgstr ""
+
+#: ../qml/Pages/ManageBookmarksPage.qml:24
+msgid "Bisher wurden keine Meldungen gespeichert."
+msgstr ""
+
+#: ../qml/Pages/ManageBookmarksPage.qml:59
+msgid "Löschen"
+msgstr ""
+
+#: ../qml/Pages/ManageBookmarksPage.qml:78
+msgid "In externen Browser öffnen"
+msgstr ""
+
+#: ../qml/Pages/ManageFeedsPage.qml:15
+msgid "Meine Gebiete..."
+msgstr ""
+
+#: ../qml/Pages/ManageFeedsPage.qml:46
+msgid "Entfernen"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:17
+msgid "Offizielle Warnseite"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:24
+msgid "Gebiete"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:31
+msgid "Über..."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:65
+msgid "Zusammenfassung der Meldung zuerst zeigen"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:66
+msgid ""
+"Umschaltung zwischen dem Laden des Kurztextes und dem Laden der gesamten "
+"Seite"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:69
+msgid "Übersicht in Gebiete unterteilen"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:70
+msgid ""
+"Gebiete werden in der Übersicht untergliedert und nicht zusammen angezeigt."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:73
+msgid "Maximale Meldungen pro Gebiet"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:74
+msgid "Zur Übersicht auf der Huptseite. Achtung: nicht zu gering einstellen!"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:77
+msgid "Sortieren nach..."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:78
+msgid "Nach welcher eigenschaft soll sortiert werden?"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:81
+msgid "Name der Sortierung"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:82
+msgid " "
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:85
+msgid "Standart Zoom des Webbrowsers"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:86
+msgid "Stellt die Vergrößerung beim Laden der Detailseite der Meldung ein."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:89
+msgid "Aktualisieren aller..."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:90
+msgid "Aller wie viel Minuten soll nach neuen Meldungen gesucht werden?"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:93
+msgid "Webseiten extern öffnen"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:94
+msgid ""
+"Öffnet die Detail seite im Standart Browser und nicht um eingebetteten "
+"Browser."
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:97
+msgid "Weiterblettern aktivieren"
+msgstr ""
+
+#: ../qml/Pages/SettingsPage.qml:98
+msgid "Ermöglicht das 'Blättern' zwischen Meldungen."
+msgstr ""
