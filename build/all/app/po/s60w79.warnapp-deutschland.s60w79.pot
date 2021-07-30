@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s60w79.warnapp-deutschland.s60w79\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 19:35+0000\n"
+"POT-Creation-Date: 2021-07-30 13:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,13 +37,13 @@ msgstr ""
 msgid "Select App to share with"
 msgstr ""
 
-#: ../qml/Main.qml:99 ../qml/Main.qml:103 ../qml/Pages/Information.qml:52
+#: ../qml/Main.qml:99 ../qml/Main.qml:103 ../qml/Pages/Information.qml:53
 #: s60w79.warnapp-deutschland.desktop.in.h:1
 msgid "Warnapp Deutschland"
 msgstr ""
 
 #: ../qml/Main.qml:115 ../qml/Pages/AddRssPage.qml:45
-#: ../qml/Pages/ManageFeedsPage.qml:20
+#: ../qml/Pages/ManageFeedsPage.qml:23
 msgid "Gebiet hinzufügen"
 msgstr ""
 
@@ -136,10 +136,18 @@ msgid "Offizielle Nachrichtenquelle"
 msgstr ""
 
 #: ../qml/Pages/Information.qml:22
-msgid "Basiert auf URsses von Darkeye"
+msgid "Basiert auf URsses von DarkEye"
 msgstr ""
 
-#: ../qml/Pages/Information.qml:58
+#: ../qml/Pages/Information.qml:23
+msgid "URsses Quellcode"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:24
+msgid "Spenden (an S60W79 oder Darkeye)"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:59
 msgid "Version %1"
 msgstr ""
 
@@ -169,11 +177,11 @@ msgstr ""
 msgid "In externen Browser öffnen"
 msgstr ""
 
-#: ../qml/Pages/ManageFeedsPage.qml:15
+#: ../qml/Pages/ManageFeedsPage.qml:18
 msgid "Meine Gebiete..."
 msgstr ""
 
-#: ../qml/Pages/ManageFeedsPage.qml:46
+#: ../qml/Pages/ManageFeedsPage.qml:67
 msgid "Entfernen"
 msgstr ""
 

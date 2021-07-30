@@ -2926,3 +2926,23 @@ function searchDomain(domain, callback) {
     //callback([{"title":"...", "description":"...", "url":"https://warnung.bund.de/api31/mowas/rss/010010000000.rss", "favicon":null}]);
 
 }
+
+function rss2name(name, callback){
+    console.log("AGSses");
+    var liste = [];
+    for(var j = 0; j < name.length; j++){
+    var ags = name[j].substr(name[j].length-16, 5); 
+    console.log(ags);
+    //makes URL to AGS Number
+    for(var i = 0; i < kreisliste.length; i++){
+        if(kreisliste[i]["AGS"] == ags){
+            //if the number was found...
+            liste.push({"title":kreisliste[i]["Kreisfreie Stadt, Kreis/Landkreis"], "description":kreisliste[i]["Region"], "url":name[j], "favicon":null});
+            }
+        }
+    }
+    console.log("Test:");
+    console.log(liste[0]["title"]);
+    callback(liste);
+}
+    

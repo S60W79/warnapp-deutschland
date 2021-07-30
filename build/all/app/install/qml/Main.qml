@@ -16,7 +16,7 @@ import "Jslibs/nextCloudAPI.js" as NextcloudAPI
 MainView {
     id: root
     objectName: 'mainView'
-    applicationName: 's60279.warnapp-deutschland'
+    applicationName: 's60w79.warnapp-deutschland'
     automaticOrientation: true
 	anchorToKeyboard: true
 

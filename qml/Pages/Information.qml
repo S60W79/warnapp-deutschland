@@ -19,8 +19,9 @@ Page {
         infoModel.append({ name: i18n.tr("Fehler melden"), url: "https://github.com/S60W79/warnapp-deutschland/issues" ,icon : "info"})
         infoModel.append({ name: i18n.tr("Offizielle Nachrichtenquelle"), url: "https://warnung.bund.de/meldungen" ,icon : "external-link" })
 //         infoModel.append({ name: i18n.tr("Help translate"), url: "https://translate.ubports.com/projects/ubports/clock-app/" })
-        infoModel.append({ name: i18n.tr("Basiert auf URsses von Darkeye"), url: "https://gitlab.com/dark-eye/ursses" ,icon : "note" })
-       // infoModel.append({ name: i18n.tr("Donate"), url: "https://liberapay.com/darkeye/donate",icon : "like" })
+        infoModel.append({ name: i18n.tr("Basiert auf URsses von DarkEye"), url: "https://open-store.io/app/darkeye.ursses" ,icon : "" })
+        infoModel.append({ name: i18n.tr("URsses Quellcode"), url: "https://gitlab.com/dark-eye/ursses" ,icon : "note" })
+        infoModel.append({ name: i18n.tr("Spenden (an S60W79 oder Darkeye)"), url: "https://infoportal.ddns.net/entwickler/spenden",icon : "like" })
     }
 
     Column {
@@ -37,7 +38,7 @@ Page {
           anchors.horizontalCenter: parent.horizontalCenter
           height: Math.min(parent.width/2, parent.height/2)
           width:height
-          source:Qt.resolvedUrl("../../assets/logo.svg")
+          source:Qt.resolvedUrl("../../assets/splash.svg")
           layer.enabled: true
           layer.effect: UbuntuShapeOverlay {
               relativeRadius: 0.75
