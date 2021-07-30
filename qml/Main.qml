@@ -11,7 +11,6 @@ import "Components/UI"
 import "Components"
 import "Pages"
 import "helpers"
-import "Jslibs/nextCloudAPI.js" as NextcloudAPI
 
 MainView {
     id: root

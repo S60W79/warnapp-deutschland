@@ -2,6 +2,6 @@
 c17db9d035f06101a3868376a86d0d00 CMakeFiles/s60w79.warnapp-deutschland.desktop
 3f92e683a9c47b60fa83e6e789269e17 po/CMakeFiles/pofiles_1
 3f92e683a9c47b60fa83e6e789269e17 po/CMakeFiles/pofiles_2
-ceca60fbfbb776a66279426800e68925 po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot
+0e8df342e39c60c69fc7b007d1d1675d po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot
 19d4f348ab834f1a863c654739a06903 po/fr.gmo
 938c61233b42564eb361511c6719efbb po/nl.gmo

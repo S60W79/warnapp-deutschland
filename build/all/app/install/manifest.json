@@ -10,7 +10,7 @@
             "content-hub": "content-hub.json"
         }
     },
-    "version": "0.0.1",
+    "version": "0.1",
     "maintainer": "s60w79 <ernetnakisuml@gmail.com>",
     "framework": "ubuntu-sdk-16.04.5"
 }

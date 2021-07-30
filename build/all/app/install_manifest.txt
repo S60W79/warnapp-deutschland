@@ -11,7 +11,6 @@
 //qml/helpers/DispatcherHandler.qml
 //qml/Jslibs/searchFeeds.js
 //qml/Jslibs/rssAPI.js
-//qml/Jslibs/nextCloudAPI.js
 //qml/Components/FeedCache.qml
 //qml/Components/ShareItem.qml
 //qml/Components/FeedsModel.qml

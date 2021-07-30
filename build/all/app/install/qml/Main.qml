@@ -11,7 +11,6 @@ import "Components/UI"
 import "Components"
 import "Pages"
 import "helpers"
-import "Jslibs/nextCloudAPI.js" as NextcloudAPI
 
 MainView {
     id: root
@@ -36,16 +35,16 @@ MainView {
 	
 	Settings {
 		id:appSettings
-		property bool showDescInsteadOfWebPage: false
+		property bool showDescInsteadOfWebPage: true
 		property bool showSections: false
 		property string mainFeedSectionField : "channel"
 		property alias urls: root.urls
 		property var bookedmarked : []
-		property int itemsToLoadPerChannel : 5
+		property int itemsToLoadPerChannel : 42
 		property int mainFeedSortAsc :Qt.DescendingOrder
 		property string mainFeedSortField : "updated"
 		property real webBrowserDefaultZoom : 1.0
-		property int updateFeedEveryXMinutes : 15
+		property int updateFeedEveryXMinutes : 3
 		property bool openFeedsExternally: false
 		property bool swipeBetweenEntries: true
 		property var nextCloudCreds :{"host":"","user":"","pass":"","accountId":false}
@@ -244,7 +243,7 @@ MainView {
 }
 
 /*
- * Copyright (C) 2021  Eran DarkEye Uzan
+ * Copyright (C) 2021  S60W79 and Eran DarkEye Uzan
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
