@@ -67,8 +67,10 @@ Page {
 					text: i18n.tr("Entfernen")
 					iconName:'delete'
 					onTriggered: {
+                        if(root.urls != null && root.urls != undefined && root.urls.length != 0 && root.urls.length != -1){
 						root.mainBillboard.removeFeed(modelData.url);
                         showareas(root.urls);
+                        }
 					}
 				}
 			}
@@ -80,6 +82,16 @@ Page {
 	/*Functions*/
     
     	function showareas(rsses) {
+            if(rsses == null || rsses == undefined){
+            //no areas saved
+            _feedsList.model = [{"title":"Bisher wurden keine Gebiete aboniert.", "description":"Tippen sie auf '+' um Warnmeldungen für Landkreise zu erhalten", "url":"", "image":null}];
+            return;
+            }else{
+                if(rsses.length == 0 || rsses.length == -1){
+                    _feedsList.model = [{"title":"Bisher wurden keine Gebiete aboniert.", "description":"Tippen sie auf '+' um Warnmeldungen für Landkreise zu erhalten", "url":"", "image":null}];
+                    return;
+                }
+            }
     SearchFeeds.rss2name(rsses, function(feeds){
 				var availableFeeds = [];
 				
@@ -94,11 +106,11 @@ Page {
 				//console.log(availableFeeds[0]["title"]);
 				_feedsList.model = availableFeeds;
 			});
-	}
+}
 }
 
 /*
- * Copyright (C) 2021  Eran DarkEye Uzan
+ * Copyright (C) 2021  S60W79 and Eran DarkEye Uzan
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
