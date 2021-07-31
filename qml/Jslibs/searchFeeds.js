@@ -2860,6 +2860,13 @@ if(a.length == 0) return b.length;
   return matrix[b.length][a.length];
 }
 function searchDomain(domain, callback) {
+    
+    //It's Easter time...
+    if(levenshteinDistance(domain, "Postillion") < 2 || levenshteinDistance(domain, "Nachrichten") < 2 || levenshteinDistance(domain, "News") < 2 || levenshteinDistance(domain, "Bin traurig") < 3 || levenshteinDistance(domain, "aufmunterung") < 3){
+        //Postillion
+        callback([{"title":"Postillion", "description":"Bitte nicht falsch verstehen, nur wenn man in katastrophalen Zeiten Aufmunterung braucht...", "url":"https://www.blogger.com/feeds/746298260979647434/posts/default", "favicon":null}]);
+        return;
+    }
     var results = [];
     for(var i = 0; i < kreisliste.length; i++){
         
@@ -2931,6 +2938,10 @@ function rss2name(name, callback){
     console.log("AGSses");
     var liste = [];
     for(var j = 0; j < name.length; j++){
+    if(name[j] == "https://www.blogger.com/feeds/746298260979647434/posts/default"){
+        //For that we can end eastertime, if we want...
+        liste.push({"title":"Postillion", "description":"Ehrliche Nachrichten, Unabhängig, schnell, seit 1845", "url":"https://www.blogger.com/feeds/746298260979647434/posts/default", "favicon":null});
+    }
     var ags = name[j].substr(name[j].length-16, 5); 
     console.log(ags);
     //makes URL to AGS Number
@@ -2945,4 +2956,3 @@ function rss2name(name, callback){
     console.log(liste[0]["title"]);
     callback(liste);
 }
-    

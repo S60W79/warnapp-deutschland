@@ -1,4 +1,4 @@
-# Install script for directory: /home/marco/Documents/Projekte/warnapp-git/po
+# Install script for directory: /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/share/locale/nl/LC_MESSAGES" TYPE FILE RENAME "s60w79.warnapp-deutschland.s60w79.mo" FILES "/home/marco/Documents/Projekte/warnapp-git/build/all/app/po/nl.gmo")
+file(INSTALL DESTINATION "/share/locale/nl/LC_MESSAGES" TYPE FILE RENAME "s60w79.warnapp-deutschland.s60w79.mo" FILES "/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po/nl.gmo")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,6 +53,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "s60w79.warnapp-deutschland.s60w79.mo" FILES "/home/marco/Documents/Projekte/warnapp-git/build/all/app/po/fr.gmo")
+file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "s60w79.warnapp-deutschland.s60w79.mo" FILES "/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po/fr.gmo")
 endif()
 

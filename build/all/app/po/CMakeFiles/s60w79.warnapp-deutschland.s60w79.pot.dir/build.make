@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git
+CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
+CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app
 
 # Utility rule file for s60w79.warnapp-deutschland.s60w79.pot.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
 include po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/progress.make
 
 po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/marco/Documents/Projekte/warnapp-git s60w79.warnapp-deutschland.desktop.in
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app/po && /usr/bin/xgettext -o s60w79.warnapp-deutschland.s60w79.pot -D /home/marco/Documents/Projekte/warnapp-git/po -D /home/marco/Documents/Projekte/warnapp-git/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='s60w79.warnapp-deutschland.s60w79' --sort-by-file ../qml/helpers/CachedHttpRequest.qml ../qml/helpers/DispatcherHandler.qml ../qml/Components/FeedCache.qml ../qml/Components/ShareItem.qml ../qml/Components/FeedsModel.qml ../qml/Components/GenerateInputForSettings.qml ../qml/Components/RssChannelItems.qml ../qml/Components/RssChannel.qml ../qml/Components/EventBillboard.qml ../qml/Components/UI/Feed.qml ../qml/Components/UI/PageHeaderWithBottomText.qml ../qml/Components/UI/SharePage.qml ../qml/Components/UI/FeedItem.qml ../qml/Main.qml ../qml/Pages/AddRssPage.qml ../qml/Pages/MainFeedPage.qml ../qml/Pages/EnteryViewPage.qml ../qml/Pages/SettingsPage.qml ../qml/Pages/Information.qml ../qml/Pages/ManageBookmarksPage.qml ../qml/Pages/ManageFeedsPage.qml ../qml/Jslibs/searchFeeds.js ../qml/Jslibs/rssAPI.js s60w79.warnapp-deutschland.desktop.in.h
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app/po && /usr/bin/cmake -E copy s60w79.warnapp-deutschland.s60w79.pot /home/marco/Documents/Projekte/warnapp-git/po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland s60w79.warnapp-deutschland.desktop.in
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po && /usr/bin/xgettext -o s60w79.warnapp-deutschland.s60w79.pot -D /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po -D /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='s60w79.warnapp-deutschland.s60w79' --sort-by-file ../qml/helpers/CachedHttpRequest.qml ../qml/helpers/DispatcherHandler.qml ../qml/Components/FeedCache.qml ../qml/Components/ShareItem.qml ../qml/Components/FeedsModel.qml ../qml/Components/GenerateInputForSettings.qml ../qml/Components/RssChannelItems.qml ../qml/Components/RssChannel.qml ../qml/Components/EventBillboard.qml ../qml/Components/UI/Feed.qml ../qml/Components/UI/PageHeaderWithBottomText.qml ../qml/Components/UI/SharePage.qml ../qml/Components/UI/FeedItem.qml ../qml/Main.qml ../qml/Pages/AddRssPage.qml ../qml/Pages/MainFeedPage.qml ../qml/Pages/EnteryViewPage.qml ../qml/Pages/SettingsPage.qml ../qml/Pages/Information.qml ../qml/Pages/ManageBookmarksPage.qml ../qml/Pages/ManageFeedsPage.qml ../qml/Jslibs/searchFeeds.js ../qml/Jslibs/rssAPI.js ../qml/Jslibs/notify.js s60w79.warnapp-deutschland.desktop.in.h
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po && /usr/bin/cmake -E copy s60w79.warnapp-deutschland.s60w79.pot /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po
 
 s60w79.warnapp-deutschland.s60w79.pot: po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot
 s60w79.warnapp-deutschland.s60w79.pot: po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/build.make
@@ -70,10 +70,10 @@ po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/build: s60w79.warnapp-de
 .PHONY : po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/build
 
 po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/clean:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/cmake_clean.cmake
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/clean
 
 po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/depend:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git/po /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app/po /home/marco/Documents/Projekte/warnapp-git/build/all/app/po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/s60w79.warnapp-deutschland.s60w79.pot.dir/depend
 

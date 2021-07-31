@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git
+CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
+CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app
 
 # Utility rule file for pofiles_1.
 
@@ -57,8 +57,8 @@ po/CMakeFiles/pofiles_1: po/nl.gmo
 
 
 po/nl.gmo: ../../../po/nl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gmo"
-	cd /home/marco/Documents/Projekte/warnapp-git/po && /usr/bin/msgfmt -o /home/marco/Documents/Projekte/warnapp-git/build/all/app/po/nl.gmo /home/marco/Documents/Projekte/warnapp-git/po/nl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gmo"
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po && /usr/bin/msgfmt -o /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po/nl.gmo /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po/nl.po
 
 pofiles_1: po/CMakeFiles/pofiles_1
 pofiles_1: po/nl.gmo
@@ -72,10 +72,10 @@ po/CMakeFiles/pofiles_1.dir/build: pofiles_1
 .PHONY : po/CMakeFiles/pofiles_1.dir/build
 
 po/CMakeFiles/pofiles_1.dir/clean:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_1.dir/cmake_clean.cmake
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_1.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles_1.dir/clean
 
 po/CMakeFiles/pofiles_1.dir/depend:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git/po /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app/po /home/marco/Documents/Projekte/warnapp-git/build/all/app/po/CMakeFiles/pofiles_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/po/CMakeFiles/pofiles_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles_1.dir/depend
 

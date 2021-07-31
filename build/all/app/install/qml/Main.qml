@@ -11,6 +11,8 @@ import "Components/UI"
 import "Components"
 import "Pages"
 import "helpers"
+import "Jslibs/rssAPI.js" as RssAPI
+import Ubuntu.PushNotifications 0.1
 
 MainView {
     id: root
@@ -26,7 +28,7 @@ MainView {
     backgroundColor: theme.palette.normal.background
 	property var urls :  [];
 	property alias mainBillboard: mainEventBillboard
-	
+	property var token : [];
 	onUrlsChanged : {
 		console.log("onUrlsChanged")
 		mainFeed.updateFeed();
@@ -38,6 +40,7 @@ MainView {
 		property bool showDescInsteadOfWebPage: true
 		property bool showSections: false
 		property string mainFeedSectionField : "channel"
+        property alias pushtoken : root.token
 		property alias urls: root.urls
 		property var bookedmarked : []
 		property int itemsToLoadPerChannel : 42
@@ -177,6 +180,12 @@ MainView {
 		repeat: true
 		onTriggered: syncNextCloud();
 	}
+	PushClient {
+        id: pushClient
+        appId: "s60w79.warnapp-deutschland_s60w79.warnapp-deutschland"
+        onTokenChanged: messenger(pushClient.token);
+        
+    }
 	
 	//==================================  Sharing is caring ===========================
 	property var urlMapping: {
@@ -240,7 +249,14 @@ MainView {
 			}
 		}
 	}
+	
+	function messenger(token){
+        console.log("ready for push!", token)
+        //RssAPI.initpush(token, function(){});
+        root.token = token;
+    }
 }
+
 
 /*
  * Copyright (C) 2021  S60W79 and Eran DarkEye Uzan

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git
+CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
+CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app
 
 # Utility rule file for s60w79.warnapp-deutschland_FILES.
 
@@ -67,6 +67,6 @@ CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/clean:
 .PHONY : CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/clean
 
 CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/depend:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app/CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/s60w79.warnapp-deutschland_FILES.dir/depend
 

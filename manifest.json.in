@@ -8,6 +8,10 @@
             "apparmor": "s60w79.warnapp-deutschland.apparmor",
             "desktop":  "s60w79.warnapp-deutschland.desktop",
             "content-hub": "content-hub.json"
+        },
+        "push": {
+                "apparmor": "push-apparmor.json",
+                "push-helper": "push.json"
         }
     },
     "version": "@VERSION@",

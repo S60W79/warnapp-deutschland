@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git
+CMAKE_SOURCE_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
+CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app
 
 # Utility rule file for s60w79.warnapp-deutschland.desktop.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/marco/Documents/Projekte/warnapp-git/build/all/app
 include CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/progress.make
 
 CMakeFiles/s60w79.warnapp-deutschland.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into s60w79.warnapp-deutschland.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/marco/Documents/Projekte/warnapp-git/po /home/marco/Documents/Projekte/warnapp-git/s60w79.warnapp-deutschland.desktop.in s60w79.warnapp-deutschland.desktop
-	sed -i 's/s60w79.warnapp-deutschland-//g' /home/marco/Documents/Projekte/warnapp-git/build/all/app/s60w79.warnapp-deutschland.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into s60w79.warnapp-deutschland.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/po /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/s60w79.warnapp-deutschland.desktop.in s60w79.warnapp-deutschland.desktop
+	sed -i 's/s60w79.warnapp-deutschland-//g' /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/s60w79.warnapp-deutschland.desktop
 
 s60w79.warnapp-deutschland.desktop: CMakeFiles/s60w79.warnapp-deutschland.desktop
 s60w79.warnapp-deutschland.desktop: CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/clean:
 .PHONY : CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/clean
 
 CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/depend:
-	cd /home/marco/Documents/Projekte/warnapp-git/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app /home/marco/Documents/Projekte/warnapp-git/build/all/app/CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app /home/marco/Documents/Projekte/warnapp-git/warnapp-deutschland/build/all/app/CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/s60w79.warnapp-deutschland.desktop.dir/depend
 

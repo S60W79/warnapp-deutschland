@@ -16,6 +16,7 @@ Page {
 	clip:true
 	
 	property var model : []
+	property var oldmodel : []
 	property var lastRefresh: 0;
 	property var refreshing:  false;
 	
@@ -144,6 +145,11 @@ Page {
 			channel.source = _mainFeed.model[i];
 			})(channels[i]);
 		}
+		if(_mainFeed.model.length < _mainFeed.oldmodel.length){
+            //es hat sich was getan (feeds got longer!)
+            RssAPI.warnPop(root.token, "Es liegt eine neue Warnmeldung für ein von Ihnen aboniertes Gebiet vor!", function(){});
+        }
+        _mainFeed.oldmodel = _mainFeed.model;
 	}
 	
 	Label {

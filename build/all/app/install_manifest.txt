@@ -1,6 +1,9 @@
 //manifest.json
 //content-hub.json
 //s60w79.warnapp-deutschland.apparmor
+//pushexec
+//push.json
+//push-apparmor.json
 //assets/splash.png
 //assets/splash.pnm
 //assets/logo.svg
@@ -11,6 +14,7 @@
 //qml/helpers/DispatcherHandler.qml
 //qml/Jslibs/searchFeeds.js
 //qml/Jslibs/rssAPI.js
+//qml/Jslibs/notify.js
 //qml/Components/FeedCache.qml
 //qml/Components/ShareItem.qml
 //qml/Components/FeedsModel.qml
