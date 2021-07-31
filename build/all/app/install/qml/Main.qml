@@ -29,6 +29,8 @@ MainView {
 	property var urls :  [];
 	property alias mainBillboard: mainEventBillboard
 	property var token : [];
+    property var oldfeed : [];
+    property var newfeed : [];
 	onUrlsChanged : {
 		console.log("onUrlsChanged")
 		mainFeed.updateFeed();
@@ -42,6 +44,7 @@ MainView {
 		property string mainFeedSectionField : "channel"
         property alias pushtoken : root.token
 		property alias urls: root.urls
+		property alias oldfeed: root.oldfeed
 		property var bookedmarked : []
 		property int itemsToLoadPerChannel : 42
 		property int mainFeedSortAsc :Qt.DescendingOrder
@@ -254,6 +257,8 @@ MainView {
         console.log("ready for push!", token)
         //RssAPI.initpush(token, function(){});
         root.token = token;
+        root.oldfeed = [];
+        root.newfeed = [];
     }
 }
 

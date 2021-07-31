@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s60w79.warnapp-deutschland.s60w79\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-31 13:57+0000\n"
+"POT-Creation-Date: 2021-07-31 14:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,37 +37,37 @@ msgstr ""
 msgid "Select App to share with"
 msgstr ""
 
-#: ../qml/Main.qml:101 ../qml/Main.qml:105 ../qml/Pages/Information.qml:53
+#: ../qml/Main.qml:104 ../qml/Main.qml:108 ../qml/Pages/Information.qml:53
 #: s60w79.warnapp-deutschland.desktop.in.h:1
 msgid "Warnapp Deutschland"
 msgstr ""
 
-#: ../qml/Main.qml:117 ../qml/Pages/AddRssPage.qml:45
+#: ../qml/Main.qml:120 ../qml/Pages/AddRssPage.qml:45
 #: ../qml/Pages/ManageFeedsPage.qml:23
 msgid "Gebiet hinzufügen"
 msgstr ""
 
-#: ../qml/Main.qml:124 ../qml/Pages/SettingsPage.qml:13
+#: ../qml/Main.qml:127 ../qml/Pages/SettingsPage.qml:13
 msgid "Einstellungen"
 msgstr ""
 
-#: ../qml/Main.qml:132
+#: ../qml/Main.qml:135
 msgid "Ascending"
 msgstr ""
 
-#: ../qml/Main.qml:132
+#: ../qml/Main.qml:135
 msgid "Descending"
 msgstr ""
 
-#: ../qml/Main.qml:132
+#: ../qml/Main.qml:135
 msgid "Toggle Sort (%1) "
 msgstr ""
 
-#: ../qml/Main.qml:204
+#: ../qml/Main.qml:207
 msgid "Gebiet hinzugefügt: %1"
 msgstr ""
 
-#: ../qml/Main.qml:236
+#: ../qml/Main.qml:239
 msgid "Gebiet hinzu gefügt : %1"
 msgstr ""
 
@@ -151,17 +151,17 @@ msgstr ""
 msgid "Version %1"
 msgstr ""
 
-#: ../qml/Pages/MainFeedPage.qml:163
+#: ../qml/Pages/MainFeedPage.qml:167
 msgid "Meldungen werden geladen"
 msgstr ""
 
-#: ../qml/Pages/MainFeedPage.qml:164
+#: ../qml/Pages/MainFeedPage.qml:168
 msgid ""
 "Bisher sind keine Gebiete in der Benachrichtigungsliste. Tippen sie auf '+' "
 "um ein Landkreis oder eine Kreisfreie Stadt hinzu zu fügen."
 msgstr ""
 
-#: ../qml/Pages/MainFeedPage.qml:258 ../qml/Pages/ManageBookmarksPage.qml:18
+#: ../qml/Pages/MainFeedPage.qml:262 ../qml/Pages/ManageBookmarksPage.qml:18
 msgid "Gespeicherte Meldungen"
 msgstr ""
 

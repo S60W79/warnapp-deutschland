@@ -89,7 +89,7 @@ req.send(JSON.stringify({
                 "notification": {
                         "card": {
                                 "icon": "notification",
-                                "summary": "Achtung!",
+                                "summary": "Achtung! Offizielle Warnmeldung für ihre Region.",
                                 "body": body,
                                 "popup": true,
                                 "persist": true

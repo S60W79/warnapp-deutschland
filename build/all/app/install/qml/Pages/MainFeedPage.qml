@@ -99,6 +99,15 @@ Page {
 					item["updateDate"] = (new Date(Date.parse(item["updated"]))).toDateString();
 					item["itemData"] =  JSON.parse(JSON.stringify(item));
 					feedList.model.append(item);
+                    
+                    //push message section:
+                    if(root.oldfeed.includes(item["updated"])){}else{
+                        //that's a new message /es gibt was neues!
+                        //=>warnen
+                        RssAPI.warnPop(root.token, item["titleText"], function(){});
+                        //=> item is now 'old'
+                        root.oldfeed.push(item["updated"]);
+                    }
 				}
 				feedList.model.sort();
 			}
@@ -145,11 +154,6 @@ Page {
 			channel.source = _mainFeed.model[i];
 			})(channels[i]);
 		}
-		if(_mainFeed.model.length < _mainFeed.oldmodel.length){
-            //es hat sich was getan (feeds got longer!)
-            RssAPI.warnPop(root.token, "Es liegt eine neue Warnmeldung für ein von Ihnen aboniertes Gebiet vor!", function(){});
-        }
-        _mainFeed.oldmodel = _mainFeed.model;
 	}
 	
 	Label {
