@@ -101,12 +101,20 @@ Page {
 					feedList.model.append(item);
                     
                     //push message section:
-                    if(root.oldfeed.includes(item["updated"])){}else{
+                    if(root.oldfeed.includes(item["updateDate"]+item["titleText"])){}else{
                         //that's a new message /es gibt was neues!
                         //=>warnen
-                        RssAPI.warnPop(root.token, item["titleText"], function(){});
+                        var today1 = new Date();
+                        if(today1.toDateString() == item["updateDate"]){
+                            //warne, da das ereignis von heute ist
+                            //warn for every message, emmited today
+                            RssAPI.warnPop(root.token, item["titleText"], function(){});
+                        }else{
+                            console.log("nichts...")
+                        }
                         //=> item is now 'old'
-                        root.oldfeed.push(item["updated"]);
+                        root.oldfeed.push(item["updateDate"]+item["titleText"]);
+                        
                     }
 				}
 				feedList.model.sort();

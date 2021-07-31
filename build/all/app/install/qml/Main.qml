@@ -31,6 +31,8 @@ MainView {
 	property var token : [];
     property var oldfeed : [];
     property var newfeed : [];
+    property alias pushtoken : root.token
+    property alias oldfeed: root.oldfeed
 	onUrlsChanged : {
 		console.log("onUrlsChanged")
 		mainFeed.updateFeed();
@@ -42,9 +44,7 @@ MainView {
 		property bool showDescInsteadOfWebPage: true
 		property bool showSections: false
 		property string mainFeedSectionField : "channel"
-        property alias pushtoken : root.token
 		property alias urls: root.urls
-		property alias oldfeed: root.oldfeed
 		property var bookedmarked : []
 		property int itemsToLoadPerChannel : 42
 		property int mainFeedSortAsc :Qt.DescendingOrder
@@ -53,7 +53,9 @@ MainView {
 		property int updateFeedEveryXMinutes : 3
 		property bool openFeedsExternally: false
 		property bool swipeBetweenEntries: true
-		property var nextCloudCreds :{"host":"","user":"","pass":"","accountId":false}
+		//be crefull the following name is lying and stands for the feeds for which an alert already came.
+		property var nextCloudCreds :[]
+		
 	}
 	
 	FeedCache {
@@ -147,42 +149,42 @@ MainView {
 	}
 	
 	// =============== Sync Next Cloud Feeds ===============
-	function syncNextCloud() {
-		NextcloudAPI.getFeeds(appSettings.nextCloudCreds,function(feedsResult) {
-			if(feedsResult && feedsResult.feeds) {
-				var nextCloudFeeds = [];
-				for(var i in feedsResult.feeds) {
-					if( feedsResult.feeds[i] && appSettings.urls.indexOf(feedsResult.feeds[i].url) < 0)
-						appSettings.urls.push(feedsResult.feeds[i].url);
-						nextCloudFeeds.push(feedsResult.feeds[i].url);
-				}
-			}
-		});
-	}
+	//function syncNextCloud() {
+		//NextcloudAPI.getFeeds(appSettings.nextCloudCreds,function(feedsResult) {
+			//if(feedsResult && feedsResult.feeds) {
+				//var nextCloudFeeds = [];
+				//for(var i in feedsResult.feeds) {
+					//if( feedsResult.feeds[i] && appSettings.urls.indexOf(feedsResult.feeds[i].url) < 0)
+						//appSettings.urls.push(feedsResult.feeds[i].url);
+						//nextCloudFeeds.push(feedsResult.feeds[i].url);
+				//}
+			//}
+		//});
+	//}
 	
-	Connections {
-		//TODO : implement this, for some reason the add remove API fails with InternalError from the server...
-		target:mainEventBillboard
-		enabled:NextcloudAPI.isCredentialValid(appSettings.nextCloudCreds);
-		onRemoveFeed : {
-			console.log("Nextcloud remove feed for : "+ JSON.stringify(feed));
-			//NextcloudAPI.readFeed(appSettings.nextCloudCreds, feed.url);
-		}
-		onAddFeed : {
-			console.log("Nextcloud add feed for : "+ JSON.stringify(feedUrl));
-			//NextcloudAPI.addFeed(appSettings.nextCloudCreds, feedUrl);
-		}
-	}
+	//Connections {
+		////TODO : implement this, for some reason the add remove API fails with InternalError from the server...
+		//target:mainEventBillboard
+		//enabled:NextcloudAPI.isCredentialValid(appSettings.nextCloudCreds);
+		//onRemoveFeed : {
+			//console.log("Nextcloud remove feed for : "+ JSON.stringify(feed));
+			////NextcloudAPI.readFeed(appSettings.nextCloudCreds, feed.url);
+		//}
+		//onAddFeed : {
+			//console.log("Nextcloud add feed for : "+ JSON.stringify(feedUrl));
+			////NextcloudAPI.addFeed(appSettings.nextCloudCreds, feedUrl);
+		//}
+	//}
 	
-	Timer {
-		id:syncNextCloudTimer
-		running: appSettings.nextCloudCreds.accountId !== undefined && appSettings.nextCloudCreds.encodedCreds !== undefined &&
-				 appSettings.nextCloudCreds.accountId && appSettings.nextCloudCreds.encodedCreds
-		interval: 30 * 60000
-		triggeredOnStart: true
-		repeat: true
-		onTriggered: syncNextCloud();
-	}
+	//Timer {
+		//id:syncNextCloudTimer
+		//running: appSettings.nextCloudCreds.accountId !== undefined && appSettings.nextCloudCreds.encodedCreds !== undefined &&
+				 //appSettings.nextCloudCreds.accountId && appSettings.nextCloudCreds.encodedCreds
+		//interval: 30 * 60000
+		//triggeredOnStart: true
+		//repeat: true
+		//onTriggered: syncNextCloud();
+	//}
 	PushClient {
         id: pushClient
         appId: "s60w79.warnapp-deutschland_s60w79.warnapp-deutschland"
@@ -257,8 +259,12 @@ MainView {
         console.log("ready for push!", token)
         //RssAPI.initpush(token, function(){});
         root.token = token;
+        if(oldfeed == null || oldfeed == undefined){
+            root.oldfeed = [];
+        }
+        //root.oldfeed = appSettings.nextCloudCreds
         root.oldfeed = [];
-        root.newfeed = [];
+        
     }
 }
 

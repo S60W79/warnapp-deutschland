@@ -2860,7 +2860,8 @@ if(a.length == 0) return b.length;
   return matrix[b.length][a.length];
 }
 function searchDomain(domain, callback) {
-    
+    var test1 = new Date();
+    console.log("test", test1.toDateString());
     //It's Easter time...
     if(levenshteinDistance(domain, "Postillion") < 2 || levenshteinDistance(domain, "Nachrichten") < 2 || levenshteinDistance(domain, "News") < 2 || levenshteinDistance(domain, "Bin traurig") < 3 || levenshteinDistance(domain, "aufmunterung") < 3){
         //Postillion

@@ -7,7 +7,7 @@ Page {
 	id:_sharePage
 	
 	header: PageHeader {
-        title: i18n.tr("Select App to share with")
+        title: i18n.tr("Denken sie an ihre Mitmenschen, teilen sie wichtige Meldungen auch per SMS!")
 	}
 	
 	property var items: []
