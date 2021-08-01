@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s60w79.warnapp-deutschland.s60w79\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-01 15:05+0000\n"
+"POT-Creation-Date: 2021-08-01 16:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgid ""
 "Denken sie an ihre Mitmenschen, teilen sie wichtige Meldungen auch per SMS!"
 msgstr ""
 
-#: ../qml/Main.qml:131 ../qml/Main.qml:135 ../qml/Pages/Information.qml:53
+#: ../qml/Main.qml:131 ../qml/Main.qml:135 ../qml/Pages/Information.qml:57
 #: s60w79.warnapp-deutschland.desktop.in.h:1
 msgid "Warnapp Deutschland"
 msgstr ""
@@ -125,30 +125,34 @@ msgid "Informationen"
 msgstr ""
 
 #: ../qml/Pages/Information.qml:18
-msgid "Quellcode ansehen"
+msgid "Anleitungen"
 msgstr ""
 
 #: ../qml/Pages/Information.qml:19
-msgid "Fehler melden"
-msgstr ""
-
-#: ../qml/Pages/Information.qml:20
 msgid "Offizielle Nachrichtenquelle"
 msgstr ""
 
-#: ../qml/Pages/Information.qml:22
-msgid "Basiert auf URsses von DarkEye"
+#: ../qml/Pages/Information.qml:20
+msgid "Fehler melden"
 msgstr ""
 
-#: ../qml/Pages/Information.qml:23
-msgid "URsses Quellcode"
-msgstr ""
-
-#: ../qml/Pages/Information.qml:24
+#: ../qml/Pages/Information.qml:21
 msgid "Spenden (an S60W79 oder Darkeye)"
 msgstr ""
 
-#: ../qml/Pages/Information.qml:59
+#: ../qml/Pages/Information.qml:25
+msgid "Basiert auf URsses von DarkEye"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:26
+msgid "Quellcode Warnapp"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:27
+msgid "URsses Quellcode"
+msgstr ""
+
+#: ../qml/Pages/Information.qml:63
 msgid "Version %1"
 msgstr ""
 

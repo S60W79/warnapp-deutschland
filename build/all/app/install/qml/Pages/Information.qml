@@ -15,13 +15,17 @@ Page {
 
     Component.onCompleted: {
        // infoModel.append({ name: i18n.tr("Dieses Projekt ermöglicht es offizielle Warnungen je nach Landkreis einfach zu empfangen.\nDabei wurde die RSS stelle des NINA Projektes genutzt und die App 'URsses' (im Openstore erhältlich) von Darkeye modifiziert."}))
-        infoModel.append({ name: i18n.tr("Quellcode ansehen"), url: "https://github.com/S60W79/warnapp-deutschland" ,icon : "note"})
-        infoModel.append({ name: i18n.tr("Fehler melden"), url: "https://github.com/S60W79/warnapp-deutschland/issues" ,icon : "info"})
+        infoModel.append({ name: i18n.tr("Anleitungen"), url: "https://infoportal.ddns.net/entwickler/anleitungen.html" ,icon : "info" })
         infoModel.append({ name: i18n.tr("Offizielle Nachrichtenquelle"), url: "https://warnung.bund.de/meldungen" ,icon : "external-link" })
+        infoModel.append({ name: i18n.tr("Fehler melden"), url: "https://github.com/S60W79/warnapp-deutschland/issues" ,icon : "info"})
+        infoModel.append({ name: i18n.tr("Spenden (an S60W79 oder Darkeye)"), url: "https://infoportal.ddns.net/entwickler/spenden",icon : "like" })
+        
+        
 //         infoModel.append({ name: i18n.tr("Help translate"), url: "https://translate.ubports.com/projects/ubports/clock-app/" })
         infoModel.append({ name: i18n.tr("Basiert auf URsses von DarkEye"), url: "https://open-store.io/app/darkeye.ursses" ,icon : "" })
+        infoModel.append({ name: i18n.tr("Quellcode Warnapp"), url: "https://github.com/S60W79/warnapp-deutschland" ,icon : "note"})
         infoModel.append({ name: i18n.tr("URsses Quellcode"), url: "https://gitlab.com/dark-eye/ursses" ,icon : "note" })
-        infoModel.append({ name: i18n.tr("Spenden (an S60W79 oder Darkeye)"), url: "https://infoportal.ddns.net/entwickler/spenden",icon : "like" })
+        
     }
 
     Column {
