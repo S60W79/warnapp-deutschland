@@ -1,6 +1,7 @@
 
 import QtQuick 2.9
 import Ubuntu.Components 1.3
+import Ubuntu.Components.Popups 1.3
 import QtQuick.Controls 2.2 as QControls
 import QtQuick.Layouts 1.3
 import Qt.labs.settings 1.0
@@ -15,12 +16,35 @@ import "Jslibs/rssAPI.js" as RssAPI
 import Ubuntu.PushNotifications 0.1
 
 MainView {
+    Component {
+         id: dialog
+         Dialog {
+             id: dialogue
+             title: "Bitte bachten!"
+             text: "Leider sind die Push Meldungen in dieser App Version noch in einem sehr frühen Stadium. Um zu erfahren wie sie mit dieser App am besten und schnellsten informiert werden können, lesen Sie sich bitte die erste Anleitung unten durch. Wenn sie keine Push Benachrichtigungen erhalten wollen, können Sie diese in den Systemeinstellungen unter Benachrichtigungen für diese App ausschalten."
+             Button {
+                 text: "Anleitung (online)"
+                 color: UbuntuColors.green
+                 onClicked: Qt.openUrlExternally("https://infoportal.ddns.net/entwickler/hinweis.html")
+             }
+             Button {
+                 text: "Warnapp testen (online)"
+                 onClicked: Qt.openUrlExternally("https://infoportal.ddns.net/entwickler/test.html")
+             }
+             Button {
+                 text: "Dialog Schließen"
+                 color: UbuntuColors.orange
+                 onClicked: PopupUtils.close(dialogue)
+             }
+         }
+    }
+
+    //warn
     id: root
     objectName: 'mainView'
     applicationName: 's60w79.warnapp-deutschland'
     automaticOrientation: true
 	anchorToKeyboard: true
-
     width: units.gu(45)
     height: units.gu(75)
 	
@@ -93,6 +117,7 @@ MainView {
 	// ---------------------------- UI ----------------------
 	
 	AdaptivePageLayout {
+        Component.onCompleted:PopupUtils.open(dialog)
 		id:mainLayout
 		anchors {
 			fill:parent

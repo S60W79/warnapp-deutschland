@@ -13,7 +13,6 @@
 //qml/helpers/CachedHttpRequest.qml
 //qml/helpers/DispatcherHandler.qml
 //qml/Jslibs/searchFeeds.js
-//qml/Jslibs/.searchFeeds.js.kate-swp
 //qml/Jslibs/rssAPI.js
 //qml/Jslibs/notify.js
 //qml/Components/FeedCache.qml
