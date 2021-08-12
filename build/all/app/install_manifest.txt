@@ -5,6 +5,7 @@
 //push.json
 //push-apparmor.json
 //assets/splash.png
+//assets/dorf.svg
 //assets/splash.pnm
 //assets/logo.svg
 //assets/logo.png

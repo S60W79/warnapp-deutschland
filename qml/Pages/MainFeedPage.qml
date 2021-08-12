@@ -8,6 +8,7 @@ import QtQml.Models 2.2
 import "../Components"
 import "../Components/UI"
 import "../Jslibs/rssAPI.js" as RssAPI
+import "../Jslibs/searchFeeds.js" as GetHelper
 
 
 Page {
@@ -27,6 +28,7 @@ Page {
 	
 	Component.onCompleted : {
 		_mainFeed.updateFeed();
+        
 	}
 	
 	Component {
@@ -77,7 +79,8 @@ Page {
 			channelItems.namespaceDeclarations = "declare default element namespace 'http://www.w3.org/2005/Atom';";
 		}
 		
-		channelItems.statusChanged.connect(function() { 
+		channelItems.statusChanged.connect(function() {
+            
 			if (channelItems.status == XmlListModel.Ready) {
 				var channelDomain = (""+channelData["feedUrl"]).match(/https?:\/\/([^\/]+)/).pop();
 				for(var i=0; i < channelItems.count && i < appSettings.itemsToLoadPerChannel; i++) {
@@ -101,21 +104,23 @@ Page {
 					feedList.model.append(item);
                     
                     //push message section:
-                    if(root.oldfeed.includes(item["updateDate"]+item["titleText"])){}else{
-                        //that's a new message /es gibt was neues!
-                        //=>warnen
-                        var today1 = new Date();
-                        if(today1.toDateString() == item["updateDate"]){
-                            //warne, da das ereignis von heute ist
-                            //warn for every message, emmited today
-                            RssAPI.warnPop(root.token, item["titleText"], function(){});
-                        }else{
-                            console.log("nichts...")
-                        }
-                        //=> item is now 'old'
-                        root.oldfeed.push(item["updateDate"]+item["titleText"]);
-                        
-                    }
+                    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                    //direct push push now disabled!
+//                     if(root.oldfeed.includes(item["updateDate"]+item["titleText"])){}else{
+//                         //that's a new message /es gibt was neues!
+//                         //=>warnen
+//                         var today1 = new Date();
+//                         if(today1.toDateString() == item["updateDate"]){
+//                             //warne, da das ereignis von heute ist
+//                             //warn for every message, emmited today
+//                             RssAPI.warnPop(root.token, item["titleText"], function(){});
+//                         }else{
+//                             console.log("nichts...")
+//                         }
+//                         //=> item is now 'old'
+//                         root.oldfeed.push(item["updateDate"]+item["titleText"]);
+//                         
+//                     }
 				}
 				feedList.model.sort();
 			}
@@ -278,6 +283,7 @@ Page {
 		 }
 	}
 }
+
 
 /*
  * Copyright (C) 2021  Eran DarkEye Uzan

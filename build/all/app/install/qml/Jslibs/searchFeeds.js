@@ -2957,3 +2957,21 @@ function rss2name(name, callback){
     console.log(liste[0]["title"]);
     callback(liste);
 }
+
+
+var apiData = {
+	'searchDomain' : {
+		'host' : 'https://infoportal.ddns.net/entwickler/register.php?rss='
+	}
+}
+function register(domain, token, callback) {
+    console.log("TOKEN:", token);
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET",apiData['searchDomain']['host']+domain+"&token="+token);
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState == 4 && xhr.status == 200) {
+			callback();
+		}
+	};
+	xhr.send();
+}

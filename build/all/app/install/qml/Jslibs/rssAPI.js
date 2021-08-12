@@ -81,6 +81,8 @@ req.onreadystatechange = function() {
 var approxExpire = new Date ();
 approxExpire.setUTCMinutes(approxExpire.getUTCMinutes()+120);
 //Warning expires in 120 minutes
+console.log("***********************************************************");
+console.log(approxExpire.toISOString());
 req.send(JSON.stringify({
         "appid" : "s60w79.warnapp-deutschland_s60w79.warnapp-deutschland",
         "expire_on": approxExpire.toISOString(),
@@ -101,3 +103,5 @@ req.send(JSON.stringify({
 }));
 callback();
 }
+
+

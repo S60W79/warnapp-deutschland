@@ -13,6 +13,7 @@ import "Components"
 import "Pages"
 import "helpers"
 import "Jslibs/rssAPI.js" as RssAPI
+import "Jslibs/searchFeeds.js" as GetHelper
 import Ubuntu.PushNotifications 0.1
 
 MainView {
@@ -241,6 +242,7 @@ MainView {
 	}
 
 	Component.onCompleted:  {
+        
 		if(args) {
 			console.log("onCompleted args:" + JSON.stringify(args));
 			dispatcherHandler.handleOnCompleted(args);
@@ -289,6 +291,13 @@ MainView {
         }
         //root.oldfeed = appSettings.nextCloudCreds
         root.oldfeed = [];
+        //abo all chanels on the push servers.
+            for(var i in root.urls) {
+            //go throw all RSS urls
+            //RssAPI have to do that, because the QML pages are confined by the apparmor
+            GetHelper.register(root.urls[i], root.token, function(){});
+        }
+        
         
     }
 }
