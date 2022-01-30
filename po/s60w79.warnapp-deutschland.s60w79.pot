@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-12 14:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Torsten Franz <torsten.franz@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../qml/Components/UI/SharePage.qml:10
 msgid ""
-"Denken sie an ihre Mitmenschen, teilen sie wichtige Meldungen auch per SMS!"
+"Denken Sie an Ihre Mitmenschen, teilen Sie wichtige Meldungen auch per SMS!"
 msgstr ""
 
 #: ../qml/Main.qml:132 ../qml/Main.qml:136 ../qml/Pages/Information.qml:57
@@ -77,7 +77,7 @@ msgid "Neues Gebiet hinzufügen"
 msgstr ""
 
 #: ../qml/Pages/AddRssPage.qml:34
-msgid "Geben sie den Namen eines Landkreises ein"
+msgid "Geben Sie den Namen eines Landkreises ein"
 msgstr ""
 
 #: ../qml/Pages/AddRssPage.qml:45
@@ -101,7 +101,7 @@ msgid "Inhalt zeigen"
 msgstr ""
 
 #: ../qml/Pages/EnteryViewPage.qml:54
-msgid "Web Inhalt Zeigen"
+msgid "Web-Inhalt zeigen"
 msgstr ""
 
 #: ../qml/Pages/EnteryViewPage.qml:66
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../qml/Pages/MainFeedPage.qml:181
 msgid ""
-"Bisher sind keine Gebiete in der Benachrichtigungsliste. Tippen sie auf '+' "
+"Bisher sind keine Gebiete in der Benachrichtigungsliste. Tippen Sie auf '+' "
 "um ein Landkreis oder eine Kreisfreie Stadt hinzu zu fügen."
 msgstr ""
 
@@ -179,11 +179,11 @@ msgid "Löschen"
 msgstr ""
 
 #: ../qml/Pages/ManageBookmarksPage.qml:78
-msgid "In externen Browser öffnen"
+msgid "Im externen Browser öffnen"
 msgstr ""
 
 #: ../qml/Pages/ManageFeedsPage.qml:18
-msgid "Meine Gebiete..."
+msgid "Meine Gebiete …"
 msgstr ""
 
 #: ../qml/Pages/ManageFeedsPage.qml:67
@@ -199,7 +199,7 @@ msgid "Gebiete"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:31
-msgid "Über..."
+msgid "Über …"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:65
@@ -226,15 +226,15 @@ msgid "Maximale Meldungen pro Gebiet"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:74
-msgid "Zur Übersicht auf der Huptseite. Achtung: nicht zu gering einstellen!"
+msgid "Zur Übersicht auf der Hauptseite. Achtung: nicht zu gering einstellen!"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:77
-msgid "Sortieren nach..."
+msgid "Sortieren nach …"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:78
-msgid "Nach welcher eigenschaft soll sortiert werden?"
+msgid "Nach welcher Eigenschaft soll sortiert werden?"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:81
@@ -246,7 +246,7 @@ msgid " "
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:85
-msgid "Standart Zoom des Webbrowsers"
+msgid "Standard-Zoom des Webbrowsers"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:86
@@ -254,11 +254,11 @@ msgid "Stellt die Vergrößerung beim Laden der Detailseite der Meldung ein."
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:89
-msgid "Aktualisieren aller..."
+msgid "Aktualisieren alle …"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:90
-msgid "Aller wie viel Minuten soll nach neuen Meldungen gesucht werden?"
+msgid "Nach wie viel Minuten soll nach neuen Meldungen gesucht werden?"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:93
@@ -267,12 +267,12 @@ msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:94
 msgid ""
-"Öffnet die Detail seite im Standart Browser und nicht um eingebetteten "
+"Öffnet die Detailseite im Standard-Browser und nicht um eingebetteten "
 "Browser."
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:97
-msgid "Weiterblettern aktivieren"
+msgid "Weiterblättern aktivieren"
 msgstr ""
 
 #: ../qml/Pages/SettingsPage.qml:98
